@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite-testng">
+	<test name="suite-testng" verbose="2">
+		<groups>
+			<!--<run>
+				<exclude name="g2" />
+				<exclude name="g3" />
+				<exclude name="oracle" />
+				<exclude name="mysql" />
+				<exclude name="paralle" />
+			</run>-->
+		</groups>
+		<packages>
+			<package name="com.vina.test.demo..*" />
+		</packages>
+	</test>
+</suite>

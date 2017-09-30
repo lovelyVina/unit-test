@@ -1,0 +1,17 @@
+package sample.test;
+
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import sample.test.web.SampleApplication;
+
+/**
+ * @author fWang
+ * @Description:
+ * @date 2017/9/30 14:56
+ */
+@RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootTest(classes = SampleApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+public class BaseTest {
+
+}
